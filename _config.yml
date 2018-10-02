@@ -6,7 +6,7 @@
 name: Adman's blog
 
 # Short bio or description (displayed in the header)
-description: Software developer, python & robot lover
+description: Writings, thoughts and stuff
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/865063?s=460&v=4
@@ -47,7 +47,7 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/blog"
 
 #
 # !! You don't need to change any of the configuration flags below !!
