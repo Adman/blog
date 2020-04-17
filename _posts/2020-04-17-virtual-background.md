@@ -89,6 +89,9 @@ Do not forget to
 * set the path of background to variable called `background`
 * set the path of model's weights to variable called `weights_path`
 
+I'm using *ICNet* with *ResNet18* backbone, but it's up to you which one
+you choose.
+
 ```python
 import cv2
 import numpy as np
