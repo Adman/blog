@@ -4,6 +4,13 @@ title: Deep learning for your video meeting
 subtitle: How to impress your friends and colleagues
 ---
 
+During these quarantine days people are mostly sitting in front of their
+computers having several video conference calls a day. The environment they
+sit in is often a bedroom or living room with a boring wall behind them.
+Let's try to change it and have fun with teleporting you for instance to
+the Star Wars.
+
+
 # Introduction
 
 ## The story
@@ -34,7 +41,7 @@ After a quick research I found open source repository called
 which is exactly what I was looking for:
 * Segmentation of person
 * Several pretrained models available
-* Models fast enough give reasonable latency (FPS)
+* Models fast enough giving reasonable latency (FPS)
 
 
 # Installing dependencies
