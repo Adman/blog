@@ -82,7 +82,9 @@ Do not forget to download environment background you would like to teleport into
 
 # Let's kick it off
 
-The script below will do the job. There is an option `ONLY_DISPLAY`
+The script below will do the job. Most of the code is taken from from Benjamin's blog.
+I've modified it to work with the repository we cloned in previous steps.
+There is an option `ONLY_DISPLAY`
 which you can set to `True` if you want to only display image in opencv window.
 
 Do not forget to
