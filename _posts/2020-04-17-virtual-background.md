@@ -220,5 +220,7 @@ $ python script.py
 BAM! The result should look like this. Image taken from
 [Benjamin Elder's blog](https://elder.dev/posts/open-source-virtual-background/)
 
-![Image taken from https://elder.dev/posts/open-source-virtual-background/](images/holo-masked.jpg)
+![Image taken from https://elder.dev/posts/open-source-virtual-background/](/blog/images/holo-masked.jpg)
+
+**May the Force be with you!**
 
