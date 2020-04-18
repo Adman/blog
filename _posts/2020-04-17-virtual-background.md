@@ -1,6 +1,6 @@
 ---                                                                             
 layout: post                                                                    
-title: Deep learning for your video meeting
+title: Teleporting yourself anywhere during video meeting
 subtitle: How to impress your friends and colleagues
 ---
 
@@ -22,6 +22,7 @@ written by Benjamin Elder.
 Once I saw that blog post I told myself: "whatever it takes, I have to try this out!".
 The author describes how to change the image coming from
 webcam and use it in video conference. He uses convolutional neural network
+called [BodyPix](https://blog.tensorflow.org/2019/11/updated-bodypix-2.html)
 to segment person on the image and adds star wars background with the
 person showing up like hologram. Cool, isn't it?
 
@@ -217,7 +218,7 @@ while True:
 ```
 
 Run this script from the root of cloned repository
-```
+```bash
 $ python script.py
 ```
 
@@ -228,4 +229,6 @@ BAM! The result should look like this. Image taken from
 ![Image taken from https://elder.dev/posts/open-source-virtual-background/](/blog/images/holo-masked.jpg)
 
 **May the Force be with you!**
+
+*Thanks to [Marek Suppa](https://github.com/mrshu) for reviewing the article.*
 
