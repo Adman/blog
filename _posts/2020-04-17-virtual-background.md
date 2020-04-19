@@ -72,6 +72,14 @@ $ pip install -r requirements.txt
 $ cd models/pytorch-image-models && python setup.py install
 ```
 
+## Install and configure v4l2loopback
+
+```bash
+$ sudo apt install v4l2loopback-dkms
+$ sudo modprobe -r v4l2loopback
+$ sudo modprobe v4l2loopback devices=1 video_nr=20 card_label="v4l2loopback" exclusive_caps=1
+```
+
 ## Download weights of pretrained model you like
 
 Check models that are described [in the README](https://github.com/thuyngch/Human-Segmentation-PyTorch#benchmark).
@@ -223,10 +231,9 @@ $ python script.py
 ```
 
 
-BAM! The result should look like this. Image taken from
-[Benjamin Elder's blog](https://elder.dev/posts/open-source-virtual-background/)
+BAM! The result should look like this.
 
-![Image taken from https://elder.dev/posts/open-source-virtual-background/](/blog/images/holo-masked.jpg)
+![Image taken from https://elder.dev/posts/open-source-virtual-background/](/blog/images/holo-masked.png)
 
 **May the Force be with you!**
 
